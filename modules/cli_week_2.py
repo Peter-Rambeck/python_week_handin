@@ -2,7 +2,7 @@ import argparse
 import csv
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='A program that downloads a URL and stores it locally')
+    parser = argparse.ArgumentParser(description='A program that a file path and name, and a list of elements to store locally in the the given file')
     parser.add_argument('path', help='The folder-path and filename')
     parser.add_argument('lst', help='a list of elements') # nargs='+', default=[1, 2, 3]
 
@@ -10,15 +10,15 @@ if __name__ == '__main__':
     # print('URL:', args.url)
     # print('Destination:', args.destination)
 
-def write_list_to_file3(args):
-    print(args.path)
-    print(args.lst)
+def write_list_to_file3(path, *lst):
+    print(path)
+    print(lst)
 
-    with open(args.path, 'w') as file3:
+    with open(path, 'w') as file3:
         file_write = csv.writer(file3 ) #delimiter = '\n'
-        file_write.writerow(args.lst)
+        file_write.writerow(lst)
 
-write_list_to_file3(args)
+write_list_to_file3(args.path, args.lst)
 
 
 
