@@ -10,12 +10,12 @@ if __name__ == '__main__':
     # print('URL:', args.url)
     # print('Destination:', args.destination)
 
-def write_list_to_file3(path, *lst):
+def write_list_to_file3(path, *lst: list):
     print(path)
     print(lst)
 
     with open(path, 'w') as file3:
-        file_write = csv.writer(file3 ) #delimiter = '\n'
+        file_write = csv.writer(file3) #delimiter = '\n'
         file_write.writerow(lst)
 
 write_list_to_file3(args.path, args.lst)
