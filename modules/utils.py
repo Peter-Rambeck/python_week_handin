@@ -4,14 +4,7 @@ import csv
 import os
 import sys
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='A program that downloads a URL and stores it locally')
-    parser.add_argument('path', help='The path to folder')
-    parser.add_argument('filename', help='The name of the file to store the url in')
 
-    args = parser.parse_args()
-    # print('URL:', args.url)
-    # print('Destination:', args.destination)
 
 
 def get_file_names(folderpath = 'tmp/', filename = 'tmp/output.txt'):
@@ -49,3 +42,6 @@ def print_line_one(file_names):
                 
             #for line in file1:
                 #print(line.split()[0].strip())
+
+if __name__ == '__main__':
+    print_line_one(['tmp/filename.csv'])
