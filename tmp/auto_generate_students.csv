@@ -1,3 +1,3 @@
-student_name : Hulk
-gender : Thing
-Avg_grade : 11.0
+(Student_name: 'Hulk', Gender: 'Green_stuff', Courses ([(Course: 'Python', Classroom: 103, Teacher: 'Teacher3', ETCS: 10, Grade: 12), (Course: 'Robot', Classroom: 102, Teacher: 'Teacher2', ETCS: 10, Grade: 10)]), Image: 'https://imgurl')
+(Student_name: 'Hulk', Gender: 'Green_stuff', Courses ([(Course: 'Python', Classroom: 103, Teacher: 'Teacher3', ETCS: 10, Grade: 12), (Course: 'Robot', Classroom: 102, Teacher: 'Teacher2', ETCS: 10, Grade: 10)]), Image: 'https://imgurl')
+(Student_name: 'Hulk', Gender: 'Green_stuff', Courses ([(Course: 'Robot', Classroom: 102, Teacher: 'Teacher2', ETCS: 10, Grade: 10), (Course: 'Python', Classroom: 103, Teacher: 'Teacher3', ETCS: 10, Grade: 12)]), Image: 'https://imgurl')
