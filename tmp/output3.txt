@@ -1,1 +1,1 @@
-['filename.csv', 'output2.txt', 'output3.txt', 'output_file.csv', 'output_file2.csv', 'output_file3.csv', 'subfolder']
+['auto_generate_students.csv', 'filename.csv', 'output.txt', 'output2.txt', 'output3.txt', 'output_file.csv', 'output_file2.csv', 'output_file3.csv', 'subfolder', 'week3_students.csv']
