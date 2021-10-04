@@ -4,8 +4,11 @@ from io import UnsupportedOperation
 from typing import List
 import requests
 from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ProcessPoolExecutor
+import multiprocessing
 from tqdm import tqdm
 import time
+import matplotlib.pyplot as plt
 
 class NotFoundException(Exception):
     pass
@@ -14,7 +17,7 @@ class TextComparer():
 
     def __init__(self, url_list: List[str]):
         self.url_list = url_list
-        self.filenames = [] #f"tmp/{url.split('/')[-1]}" for url in url_list
+        self.filenames = []
 
     def download(self, url, filename):         
         r = requests.get(url, stream = True)
@@ -22,21 +25,22 @@ class TextComparer():
         if (r.status_code != 200):
             raise NotFoundException(f" url: {url} was not found")
         else:
-            with open('tmp/books/' + filename, 'wb') as file:
+            with open(filename, 'wb') as file: # 'tmp/W6/books/' + 
                 for chunk in tqdm(r.iter_content(chunk_size=1024)):
                     file.write(chunk)
        
     def multi_download(self):
+
         workers = len(self.url_list)
         with ThreadPoolExecutor(workers) as ex:
-            #ex.map(self.download, self.url_list, self.filenames )
             i = 0
-            for url in self.url_list:
-                filename = 'book' + str(i) + '.txt' 
+            for x in self.url_list:
+                filename = 'tmp/w6/books/' + 'book' + str(i) + '.txt' 
                 self.filenames.append(filename)
-                ex.submit(self.download, url, filename)
-                print(filename)
-                i += 1      
+            #    #ex.submit(self.download, url, filename)
+            #    print(filename)
+                i += 1
+            ex.map(self.download, self.url_list, self.filenames)      
         return self.filenames      
         
     def __iter__(self):
@@ -67,5 +71,18 @@ class TextComparer():
         print('words: ', word_count)        
         print('vowels: ', vowel_count)
 
-        number_of_vowels_per_words = (word_count / vowel_count)
+        number_of_vowels_per_words = round(vowel_count/word_count, 2)
         return number_of_vowels_per_words
+
+    def hardest_read(self):
+        workers = multiprocessing.cpu_count() 
+        with ProcessPoolExecutor(workers) as ex:
+            res = ex.map(self.avg_vowels, self.filenames)
+            
+            fig = plt.figure()
+            ax = fig.add_axes([0,0,1,1])
+            langs = list(self.filenames) #['C', 'C++', 'Java', 'Python', 'PHP']
+            students = list(res) # [23,17,35,29,12]
+            ax.bar(langs,students)
+            plt.show()
+        return list(res)
