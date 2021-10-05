@@ -80,7 +80,6 @@ class TextComparer():
         workers = multiprocessing.cpu_count() 
         with ProcessPoolExecutor(workers) as ex:
             res = ex.map(self.avg_vowels, self.filenames)  
-            file_with_vowels.setdefault(res, self.filenames)
-            print(file_with_vowels)  
+            file_with_vowels.setdefault(res, self.filenames)  
         return list(res)
         
