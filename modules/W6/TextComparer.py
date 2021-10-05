@@ -55,8 +55,8 @@ class TextComparer():
         return name
 
     def urlist_generator(self):
-        for url in self.url_list:
-            yield url
+        for name in self.filenames:
+            yield name
 
     def avg_vowels(self, text): # Processer
         vowels = 'aeiou'
@@ -64,6 +64,7 @@ class TextComparer():
         word_count = 0
         with open( text, 'r') as file:
             for line in file:
+                #yield line
                 for word in line.split():
                     word_count += 1
                     for vowels in word.lower():
@@ -75,14 +76,11 @@ class TextComparer():
         return number_of_vowels_per_words
 
     def hardest_read(self):
+        file_with_vowels = {}
         workers = multiprocessing.cpu_count() 
         with ProcessPoolExecutor(workers) as ex:
-            res = ex.map(self.avg_vowels, self.filenames)
-            
-            fig = plt.figure()
-            ax = fig.add_axes([0,0,1,1])
-            langs = list(self.filenames) #['C', 'C++', 'Java', 'Python', 'PHP']
-            students = list(res) # [23,17,35,29,12]
-            ax.bar(langs,students)
-            plt.show()
+            res = ex.map(self.avg_vowels, self.filenames)  
+            file_with_vowels.setdefault(res, self.filenames)
+            print(file_with_vowels)  
         return list(res)
+        
