@@ -4955,3 +4955,1515 @@ console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1638392559262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuOkXzX"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1638392561237	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuOkXzX/search.json.mozlz4", (void 0)))
+1638392566965	Marionette	INFO	Listening on port 46011
+1638392567144	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638392577098	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1638392602737	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejLqYDF"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1638392604514	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejLqYDF/search.json.mozlz4", (void 0)))
+1638392611470	Marionette	INFO	Listening on port 34267
+1638392611643	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638392622696	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1638392695761	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVWy345"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1638392704492	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+Exiting due to channel error.
+Exiting due to channel error.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639739204620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRmyevm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639739206587	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRmyevm/search.json.mozlz4", (void 0)))
+1639739209849	Marionette	INFO	Listening on port 35929
+1639739210001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639739237005	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSP0eaq"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639739237948	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSP0eaq/search.json.mozlz4", (void 0)))
+1639739241160	Marionette	INFO	Listening on port 45531
+1639739241281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639739248412	Marionette	INFO	Stopped listening on port 45531
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639742316011	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWIkUEv"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639742317425	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWIkUEv/search.json.mozlz4", (void 0)))
+1639742321249	Marionette	INFO	Listening on port 44449
+1639742321422	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639742604683	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3OnS6m"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639742605624	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3OnS6m/search.json.mozlz4", (void 0)))
+1639742610252	Marionette	INFO	Listening on port 43245
+1639742610357	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639742685622	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehlD6T5"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639742686637	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehlD6T5/search.json.mozlz4", (void 0)))
+1639742691446	Marionette	INFO	Listening on port 33709
+1639742691617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639742717151	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile87GwNk"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639742718462	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile87GwNk/search.json.mozlz4", (void 0)))
+1639742723456	Marionette	INFO	Listening on port 39341
+1639742723533	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639742729615	Marionette	INFO	Stopped listening on port 39341
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639743190270	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegv0LUH"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639743191247	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegv0LUH/search.json.mozlz4", (void 0)))
+1639743194265	Marionette	INFO	Listening on port 45555
+1639743194343	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639743200370	Marionette	INFO	Stopped listening on port 45555
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639743930910	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHHHeeF"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639743931725	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHHHeeF/search.json.mozlz4", (void 0)))
+1639743935725	Marionette	INFO	Listening on port 41017
+1639743935806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639743962250	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejhmER0"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639743963342	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejhmER0/search.json.mozlz4", (void 0)))
+1639743969121	Marionette	INFO	Listening on port 42083
+1639743969251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639745757238	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFUWpUY"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639745759719	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFUWpUY/search.json.mozlz4", (void 0)))
+1639745765892	Marionette	INFO	Listening on port 37565
+1639745766054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639745841128	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMQIyVb"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639745842198	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMQIyVb/search.json.mozlz4", (void 0)))
+1639745847909	Marionette	INFO	Listening on port 35685
+1639745848007	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639745854941	Marionette	INFO	Stopped listening on port 35685
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639745958261	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLHZa4N"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639745959629	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLHZa4N/search.json.mozlz4", (void 0)))
+1639745962767	Marionette	INFO	Listening on port 41949
+1639745962838	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639745969379	Marionette	INFO	Stopped listening on port 41949
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639746305249	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6h2c7K"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639746306280	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6h2c7K/search.json.mozlz4", (void 0)))
+1639746309471	Marionette	INFO	Listening on port 43745
+1639746309614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639746316055	Marionette	INFO	Stopped listening on port 43745
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639746540587	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWECSVk"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639746541452	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWECSVk/search.json.mozlz4", (void 0)))
+1639746544660	Marionette	INFO	Listening on port 38095
+1639746544789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639746551953	Marionette	INFO	Stopped listening on port 38095
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639746645060	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepFmd4A"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639746646227	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepFmd4A/search.json.mozlz4", (void 0)))
+1639746649576	Marionette	INFO	Listening on port 37089
+1639746649636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639746655688	Marionette	INFO	Stopped listening on port 37089
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639746692200	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexrwQCH"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639746693193	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexrwQCH/search.json.mozlz4", (void 0)))
+1639746696909	Marionette	INFO	Listening on port 38883
+1639746696991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639746703057	Marionette	INFO	Stopped listening on port 38883
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639746847258	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile55tQAp"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639746848434	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile55tQAp/search.json.mozlz4", (void 0)))
+1639746852474	Marionette	INFO	Listening on port 42931
+1639746852567	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639747080139	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBHJ4rF"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639747081729	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBHJ4rF/search.json.mozlz4", (void 0)))
+1639747104816	Marionette	INFO	Listening on port 44163
+1639747106413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639747266426	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.stjernegaard-rejser.dk/public/js/chunk-vendors.js?v=20211102085057, line 12: Error: Network Error
+JavaScript error: https://www.stjernegaard-rejser.dk/public/js/chunk-vendors.js?v=20211102085057, line 12: Error: Network Error
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+1639747599574	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+1639747599869	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+1639747824578	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexgNsvP"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639747826578	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexgNsvP/search.json.mozlz4", (void 0)))
+1639747832601	Marionette	INFO	Listening on port 35901
+1639747832733	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639747844615	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1639747849440	Marionette	INFO	Stopped listening on port 35901
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639748033360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaBPCBr"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639748035470	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaBPCBr/search.json.mozlz4", (void 0)))
+Exiting due to channel error.
+Exiting due to channel error.
+1639748156820	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileO5YVvX"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639748158673	Marionette	INFO	Marionette enabled
+Exiting due to channel error.
+Exiting due to channel error.
+1639748341657	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMBodSB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639748344544	Marionette	INFO	Marionette enabled
+Exiting due to channel error.
+Exiting due to channel error.
+1639748573291	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--ignore-certificate-errors" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTpuMQh"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639748575514	Marionette	INFO	Marionette enabled
+Exiting due to channel error.
+Exiting due to channel error.
+1639748712619	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegeyA1t"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639748714457	Marionette	INFO	Marionette enabled
+Exiting due to channel error.
+Exiting due to channel error.
+1639748943597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqL1NWq"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639748945401	Marionette	INFO	Marionette enabled
+Exiting due to channel error.
+Exiting due to channel error.
+1639754395727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqEWNb5"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639754397474	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqEWNb5/search.json.mozlz4", (void 0)))
+1639754405674	Marionette	INFO	Listening on port 40357
+1639754405848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639754474460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileURAKJK"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639754475669	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileURAKJK/search.json.mozlz4", (void 0)))
+1639754481429	Marionette	INFO	Listening on port 42389
+1639754481601	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639754596224	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileknvd0N"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639754597187	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileknvd0N/search.json.mozlz4", (void 0)))
+1639754602057	Marionette	INFO	Listening on port 36837
+1639754602428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639754741621	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7DGomJ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639754743214	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7DGomJ/search.json.mozlz4", (void 0)))
+1639754748192	Marionette	INFO	Listening on port 41275
+1639754748370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639754755498	Marionette	INFO	Stopped listening on port 41275
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639754855031	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOVC2O6"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639754855905	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOVC2O6/search.json.mozlz4", (void 0)))
+1639754859338	Marionette	INFO	Listening on port 40551
+1639754859427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639754886681	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletFANKO"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639754887504	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletFANKO/search.json.mozlz4", (void 0)))
+1639754891591	Marionette	INFO	Listening on port 34469
+1639754891677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639755052982	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepEMGub"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639755054098	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepEMGub/search.json.mozlz4", (void 0)))
+1639755058123	Marionette	INFO	Listening on port 41529
+1639755058262	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639755112132	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelFyODm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639755113062	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelFyODm/search.json.mozlz4", (void 0)))
+1639755117742	Marionette	INFO	Listening on port 42019
+1639755117814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639755123512	Marionette	INFO	Stopped listening on port 42019
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639755314918	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileS2aWZp"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639755315915	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileS2aWZp/search.json.mozlz4", (void 0)))
+1639755319313	Marionette	INFO	Listening on port 46483
+1639755319384	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639755516435	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletS22KU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639755517569	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletS22KU/search.json.mozlz4", (void 0)))
+1639755523048	Marionette	INFO	Listening on port 41639
+1639755523190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:13056): GLib-GObject-CRITICAL **: 15:38:49.776: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:13056): GLib-GObject-CRITICAL **: 15:38:49.777: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:13056): GLib-GObject-CRITICAL **: 15:38:49.778: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:13056): GLib-GObject-CRITICAL **: 15:38:49.780: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:13056): GLib-GObject-CRITICAL **: 15:38:49.781: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:13056): GLib-GObject-CRITICAL **: 15:38:49.786: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:13056): GLib-GObject-WARNING **: 15:38:49.792: ../../../../gobject/gsignal.c:3492: signal name 'load_complete' is invalid for instance '0x7fd5d89343d0' of type 'MaiAtkType139'
+1639755592400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileT8RQj4"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639755594435	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT8RQj4/search.json.mozlz4", (void 0)))
+1639755600772	Marionette	INFO	Listening on port 38783
+1639755600937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639755608150	Marionette	INFO	Stopped listening on port 38783
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639755760930	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5s9TL4"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639755761965	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5s9TL4/search.json.mozlz4", (void 0)))
+1639755766787	Marionette	INFO	Listening on port 38259
+1639755766950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639755780235	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639756119188	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiqSt3p"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639756121442	Marionette	INFO	Marionette enabled
+Exiting due to channel error.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639756265174	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLUM08R"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639756267861	Marionette	INFO	Marionette enabled
+Exiting due to channel error.
+1639756365896	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyT7pRg"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639756368384	Marionette	INFO	Marionette enabled
+Exiting due to channel error.
+1639760026109	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekI2dCU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639760029160	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekI2dCU/search.json.mozlz4", (void 0)))
+1639760034774	Marionette	INFO	Listening on port 40585
+1639760034925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639760041137	Marionette	INFO	Stopped listening on port 40585
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639760165163	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyTvL1K"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639760166395	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyTvL1K/search.json.mozlz4", (void 0)))
+1639760171084	Marionette	INFO	Listening on port 33703
+1639760171163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639760177391	Marionette	INFO	Stopped listening on port 33703
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639760891636	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKz3NMs"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639760892518	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKz3NMs/search.json.mozlz4", (void 0)))
+1639760895809	Marionette	INFO	Listening on port 37859
+1639760895896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639760901771	Marionette	INFO	Stopped listening on port 37859
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639761257906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemvelYH"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639761258805	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemvelYH/search.json.mozlz4", (void 0)))
+1639761262190	Marionette	INFO	Listening on port 33405
+1639761262286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639761337314	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileozD620"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639761338175	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileozD620/search.json.mozlz4", (void 0)))
+1639761341546	Marionette	INFO	Listening on port 37105
+1639761341684	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639761347722	Marionette	INFO	Stopped listening on port 37105
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639761435815	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledqVcHX"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639761436614	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledqVcHX/search.json.mozlz4", (void 0)))
+1639761439875	Marionette	INFO	Listening on port 39403
+1639761439981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639761445883	Marionette	INFO	Stopped listening on port 39403
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639761650621	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileslu5gc"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639761651686	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileslu5gc/search.json.mozlz4", (void 0)))
+1639761655089	Marionette	INFO	Listening on port 37789
+1639761655181	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639761829258	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3ZBo3X"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639761830562	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3ZBo3X/search.json.mozlz4", (void 0)))
+1639761834805	Marionette	INFO	Listening on port 39495
+1639761834948	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639761841031	Marionette	INFO	Stopped listening on port 39495
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639769518959	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuENx8g"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639769520583	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuENx8g/search.json.mozlz4", (void 0)))
+1639769524767	Marionette	INFO	Listening on port 42929
+1639769524884	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639822701444	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePjFVOp"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639822702951	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePjFVOp/search.json.mozlz4", (void 0)))
+1639822706517	Marionette	INFO	Listening on port 39751
+1639822706646	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639823119820	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileM1VFs6"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639823120651	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileM1VFs6/search.json.mozlz4", (void 0)))
+1639823124095	Marionette	INFO	Listening on port 39581
+1639823124293	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639823334305	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileopu74Q"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639823335542	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileopu74Q/search.json.mozlz4", (void 0)))
+1639823340753	Marionette	INFO	Listening on port 44793
+1639823340901	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639823350568	Marionette	INFO	Stopped listening on port 44793
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639823445030	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLwwvI4"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639823445933	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLwwvI4/search.json.mozlz4", (void 0)))
+1639823449664	Marionette	INFO	Listening on port 40765
+1639823449821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639825283509	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevZ6HeD"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639825284334	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevZ6HeD/search.json.mozlz4", (void 0)))
+1639825288889	Marionette	INFO	Listening on port 41567
+1639825289033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639825447169	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelY4Mbt"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639825448311	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelY4Mbt/search.json.mozlz4", (void 0)))
+1639825452626	Marionette	INFO	Listening on port 45601
+1639825452762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639825462065	Marionette	INFO	Stopped listening on port 45601
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639825744284	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1O8d12"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639825745073	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1O8d12/search.json.mozlz4", (void 0)))
+1639825749040	Marionette	INFO	Listening on port 37301
+1639825749160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639825766475	Marionette	INFO	Stopped listening on port 37301
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639825914895	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAuu25j"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639825915635	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAuu25j/search.json.mozlz4", (void 0)))
+1639825918692	Marionette	INFO	Listening on port 35761
+1639825918769	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639825927743	Marionette	INFO	Stopped listening on port 35761
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639826069501	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGKUMPk"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639826070410	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGKUMPk/search.json.mozlz4", (void 0)))
+1639826073607	Marionette	INFO	Listening on port 45957
+1639826073663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639826083284	Marionette	INFO	Stopped listening on port 45957
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639826146925	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilen1hQf2"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639826147706	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilen1hQf2/search.json.mozlz4", (void 0)))
+1639826150783	Marionette	INFO	Listening on port 42485
+1639826150887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639826231796	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBOfz20"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639826232741	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBOfz20/search.json.mozlz4", (void 0)))
+1639826240260	Marionette	INFO	Listening on port 33119
+1639826240394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639826249404	Marionette	INFO	Stopped listening on port 33119
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639826322062	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileltLDfO"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639826322984	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileltLDfO/search.json.mozlz4", (void 0)))
+1639826326148	Marionette	INFO	Listening on port 45013
+1639826326280	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639826334211	Marionette	INFO	Stopped listening on port 45013
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639826416903	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileO39meq"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639826417732	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileO39meq/search.json.mozlz4", (void 0)))
+1639826421671	Marionette	INFO	Listening on port 45173
+1639826421805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639826429621	Marionette	INFO	Stopped listening on port 45173
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639826691060	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehNzDJt"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639826692250	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehNzDJt/search.json.mozlz4", (void 0)))
+1639826695976	Marionette	INFO	Listening on port 42793
+1639826696094	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639826704564	Marionette	INFO	Stopped listening on port 42793
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639826966946	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQ4js5q"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639826967727	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQ4js5q/search.json.mozlz4", (void 0)))
+1639826970833	Marionette	INFO	Listening on port 38109
+1639826970919	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639826979118	Marionette	INFO	Stopped listening on port 38109
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639828994831	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoCSS3r"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639828996661	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoCSS3r/search.json.mozlz4", (void 0)))
+1639829003127	Marionette	INFO	Listening on port 40693
+1639829003251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639829012875	Marionette	INFO	Stopped listening on port 40693
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639829284437	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevRcjuO"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639829285616	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevRcjuO/search.json.mozlz4", (void 0)))
+1639829288695	Marionette	INFO	Listening on port 44037
+1639829288808	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639829295370	Marionette	INFO	Stopped listening on port 44037
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639831368111	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEsO6q3"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639831369099	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEsO6q3/search.json.mozlz4", (void 0)))
+1639831372277	Marionette	INFO	Listening on port 42107
+1639831372378	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639831383981	Marionette	INFO	Stopped listening on port 42107
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639837416769	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefKoXUF"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639837418979	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefKoXUF/search.json.mozlz4", (void 0)))
+1639837425676	Marionette	INFO	Listening on port 43079
+1639837425951	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639837432233	Marionette	INFO	Stopped listening on port 43079
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639837470905	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeuASeU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639837471840	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeuASeU/search.json.mozlz4", (void 0)))
+1639837479322	Marionette	INFO	Listening on port 44523
+1639837479473	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639838362978	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYhuabU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639838364040	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYhuabU/search.json.mozlz4", (void 0)))
+1639838367369	Marionette	INFO	Listening on port 42507
+1639838367473	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639838377160	Marionette	INFO	Stopped listening on port 42507
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639838605089	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRn7mJk"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639838606038	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRn7mJk/search.json.mozlz4", (void 0)))
+1639838610992	Marionette	INFO	Listening on port 33295
+1639838611079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639838626434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerjHtgu"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639838627339	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerjHtgu/search.json.mozlz4", (void 0)))
+1639838631790	Marionette	INFO	Listening on port 45139
+1639838631992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639838638260	Marionette	INFO	Stopped listening on port 45139
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639842643279	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4yl5UA"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639842645395	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4yl5UA/search.json.mozlz4", (void 0)))
+1639842649691	Marionette	INFO	Listening on port 33053
+1639842649772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639842656865	Marionette	INFO	Stopped listening on port 33053
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639842737578	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJ7oQe3"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639842738643	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJ7oQe3/search.json.mozlz4", (void 0)))
+1639842741956	Marionette	INFO	Listening on port 39947
+1639842742056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639842748243	Marionette	INFO	Stopped listening on port 39947
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639843239784	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRL78tR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639843240761	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRL78tR/search.json.mozlz4", (void 0)))
+1639843244492	Marionette	INFO	Listening on port 35557
+1639843244585	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639843305995	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileT0iAhO"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639843308153	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT0iAhO/search.json.mozlz4", (void 0)))
+1639843315800	Marionette	INFO	Listening on port 46513
+1639843315926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639843322833	Marionette	INFO	Stopped listening on port 46513
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639843950052	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7sliJD"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639843951111	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7sliJD/search.json.mozlz4", (void 0)))
+1639843954154	Marionette	INFO	Listening on port 42299
+1639843954234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1639844162989	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilege3EWP"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639844163999	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilege3EWP/search.json.mozlz4", (void 0)))
+1639844171627	Marionette	INFO	Listening on port 36035
+1639844171689	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639844256858	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaCoIly"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639844258019	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaCoIly/search.json.mozlz4", (void 0)))
+1639844262222	Marionette	INFO	Listening on port 36543
+1639844262365	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639844269864	Marionette	INFO	Stopped listening on port 36543
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639844364370	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletT3TSg"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639844365331	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletT3TSg/search.json.mozlz4", (void 0)))
+1639844368824	Marionette	INFO	Listening on port 45837
+1639844368976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639844375817	Marionette	INFO	Stopped listening on port 45837
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639844695319	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVRddmj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639844696252	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVRddmj/search.json.mozlz4", (void 0)))
+1639844699285	Marionette	INFO	Listening on port 44653
+1639844699400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639846265655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2NmeKU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639846266890	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2NmeKU/search.json.mozlz4", (void 0)))
+1639846271897	Marionette	INFO	Listening on port 37299
+1639846272073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639846311095	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZEEQxW"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639846312587	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZEEQxW/search.json.mozlz4", (void 0)))
+1639846322547	Marionette	INFO	Listening on port 45173
+1639846322844	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639846341809	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1639846512642	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSliNTA"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639846517708	Marionette	INFO	Marionette enabled
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639847625880	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevLoAri"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639847627723	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevLoAri/search.json.mozlz4", (void 0)))
+1639847636026	Marionette	INFO	Listening on port 38455
+1639847637663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639847736656	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1639848082449	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+JavaScript error: https://www.stjernegaard-rejser.dk/public/js/chunk-vendors.js?v=20211102085057, line 12: Error: Network Error
+JavaScript error: https://www.stjernegaard-rejser.dk/public/js/chunk-vendors.js?v=20211102085057, line 12: Error: timeout of 60000ms exceeded
+1639849080371	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLsAcfU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639849083974	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLsAcfU/search.json.mozlz4", (void 0)))
+1639849090484	Marionette	INFO	Listening on port 37149
+1639849090602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639851343284	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecnqchN"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639851346537	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecnqchN/search.json.mozlz4", (void 0)))
+1639851354235	Marionette	INFO	Listening on port 38013
+1639851354363	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639851497270	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeKtMhn"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639851498587	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeKtMhn/search.json.mozlz4", (void 0)))
+1639851504931	Marionette	INFO	Listening on port 43997
+1639851505121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639851512124	Marionette	INFO	Stopped listening on port 43997
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639851550460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileU8BJzX"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639851551837	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileU8BJzX/search.json.mozlz4", (void 0)))
+1639851560142	Marionette	INFO	Listening on port 44507
+1639851560407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639851568751	Marionette	INFO	Stopped listening on port 44507
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639852107323	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRho1sq"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639852108319	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRho1sq/search.json.mozlz4", (void 0)))
+1639852111572	Marionette	INFO	Listening on port 41543
+1639852111683	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639852117614	Marionette	INFO	Stopped listening on port 41543
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639852240259	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSqC0Jc"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639852241111	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSqC0Jc/search.json.mozlz4", (void 0)))
+1639852244465	Marionette	INFO	Listening on port 35839
+1639852244527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639852253608	Marionette	INFO	Stopped listening on port 35839
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639852315926	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0lN0Tv"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639852316802	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0lN0Tv/search.json.mozlz4", (void 0)))
+1639852320332	Marionette	INFO	Listening on port 33015
+1639852320454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639852326557	Marionette	INFO	Stopped listening on port 33015
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639852444905	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelLtJ78"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639852445862	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelLtJ78/search.json.mozlz4", (void 0)))
+1639852448949	Marionette	INFO	Listening on port 39735
+1639852449093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639852455139	Marionette	INFO	Stopped listening on port 39735
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639852592001	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexNFJjX"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639852592969	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexNFJjX/search.json.mozlz4", (void 0)))
+1639852596303	Marionette	INFO	Listening on port 43767
+1639852596368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639852608069	Marionette	INFO	Stopped listening on port 43767
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639852764467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenHPP9q"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639852765284	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenHPP9q/search.json.mozlz4", (void 0)))
+1639852768697	Marionette	INFO	Listening on port 43487
+1639852768871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639852775042	Marionette	INFO	Stopped listening on port 43487
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639852851366	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemr635R"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639852852308	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemr635R/search.json.mozlz4", (void 0)))
+1639852855575	Marionette	INFO	Listening on port 42355
+1639852855641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639852862240	Marionette	INFO	Stopped listening on port 42355
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639853035979	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVariIk"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639853036908	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVariIk/search.json.mozlz4", (void 0)))
+1639853039987	Marionette	INFO	Listening on port 33389
+1639853040138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639853045962	Marionette	INFO	Stopped listening on port 33389
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639853167955	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEPEJrj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639853168852	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEPEJrj/search.json.mozlz4", (void 0)))
+1639853172396	Marionette	INFO	Listening on port 43723
+1639853172553	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639853182370	Marionette	INFO	Stopped listening on port 43723
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639853253020	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDml5rI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639853253815	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDml5rI/search.json.mozlz4", (void 0)))
+1639853257391	Marionette	INFO	Listening on port 46501
+1639853257514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639853263299	Marionette	INFO	Stopped listening on port 46501
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1639853377388	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHbs3yu"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639853378258	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHbs3yu/search.json.mozlz4", (void 0)))
+1639853381557	Marionette	INFO	Listening on port 38969
+1639853381665	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639853387954	Marionette	INFO	Stopped listening on port 38969
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639853445972	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMHCWfF"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639853446934	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMHCWfF/search.json.mozlz4", (void 0)))
+1639853450577	Marionette	INFO	Listening on port 42775
+1639853450674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639853460136	Marionette	INFO	Stopped listening on port 42775
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639853893366	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOAvugo"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639853894179	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOAvugo/search.json.mozlz4", (void 0)))
+1639853898050	Marionette	INFO	Listening on port 34459
+1639853898139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639853904639	Marionette	INFO	Stopped listening on port 34459
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639854043743	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBR8kJP"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639854044752	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBR8kJP/search.json.mozlz4", (void 0)))
+1639854047945	Marionette	INFO	Listening on port 46377
+1639854048022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639854053875	Marionette	INFO	Stopped listening on port 46377
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639854623264	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevFSqpd"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639854624401	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevFSqpd/search.json.mozlz4", (void 0)))
+1639854627825	Marionette	INFO	Listening on port 33113
+1639854627949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639854633798	Marionette	INFO	Stopped listening on port 33113
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639854853770	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile22zgoa"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1639854854865	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile22zgoa/search.json.mozlz4", (void 0)))
+1639854858171	Marionette	INFO	Listening on port 38567
+1639854858249	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639854864416	Marionette	INFO	Stopped listening on port 38567
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
